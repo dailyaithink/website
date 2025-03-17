@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" fill="#050505"/>
+  
+  <!-- Robot head outline -->
+  <rect x="7" y="7" width="18" height="18" rx="5" fill="#050505" stroke="#00f3ff" stroke-width="1.5"/>
+  
+  <!-- Robot eyes -->
+  <circle cx="11" cy="13" r="2.5" fill="#00f3ff"/>
+  <circle cx="21" cy="13" r="2.5" fill="#00f3ff"/>
+  
+  <!-- Robot mouth -->
+  <line x1="11" y1="21" x2="21" y2="21" stroke="#00f3ff" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Antenna -->
+  <line x1="16" y1="7" x2="16" y2="3" stroke="#00f3ff" stroke-width="1.5"/>
+  <circle cx="16" cy="2" r="1.5" fill="#ff00e6"/>
+  
+  <!-- Glow effect - subtle for small size -->
+  <circle cx="16" cy="16" r="15.5" stroke="#00f3ff" stroke-width="0.5" stroke-opacity="0.5" fill="none"/>
+</svg> 
