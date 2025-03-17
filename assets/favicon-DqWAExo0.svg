@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with dark gradient -->
+  <circle cx="32" cy="32" r="32" fill="#050505"/>
+  
+  <!-- Robot head outline -->
+  <rect x="14" y="14" width="36" height="36" rx="10" fill="#050505" stroke="#00f3ff" stroke-width="2.5"/>
+  
+  <!-- Robot eyes -->
+  <circle cx="22" cy="26" r="5" fill="#00f3ff">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="42" cy="26" r="5" fill="#00f3ff">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Robot mouth -->
+  <line x1="22" y1="42" x2="42" y2="42" stroke="#00f3ff" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Antenna -->
+  <line x1="32" y1="14" x2="32" y2="6" stroke="#00f3ff" stroke-width="2.5"/>
+  <circle cx="32" cy="4" r="3" fill="#ff00e6"/>
+  
+  <!-- Glow effect -->
+  <circle cx="32" cy="32" r="31" stroke="#00f3ff" stroke-width="1" stroke-opacity="0.5" fill="none"/>
+  
+  <!-- Extra glow effect -->
+  <circle cx="32" cy="32" r="29" stroke="#ff00e6" stroke-width="0.5" stroke-opacity="0.3" fill="none"/>
+</svg> 
