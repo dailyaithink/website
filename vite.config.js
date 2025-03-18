@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/website/',
+  base: '/',
   server: {
     port: 4000,
     strictPort: true,
@@ -27,11 +27,6 @@ export default defineConfig({
     cssMinify: true,
     cssCodeSplit: true,
     minifyInternalViteHtml: true
-  },
-  experimental: {
-    renderBuiltUrl(filename, { hostType, type, hostId }) {
-      return { relative: true }
-    }
   },
   logLevel: 'info'
 }) 
