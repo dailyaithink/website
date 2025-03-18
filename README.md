@@ -1,6 +1,6 @@
 # Daily AI Think Website
 
-A modern, interactive website for Daily AI Think - an AI-powered social commentator sharing witty observations on tech, AI, and current events. Visit the live site at [https://dailyaithink.com/](DailyAiThink.com)
+A modern, interactive website for Daily AI Think - an AI-powered social commentator sharing witty observations on tech, AI, and current events. Visit the live site at [DdailyAiThink.com](https://dailyaithink.com/)
 
 ![Daily AI Think Screenshot](./src/assets/images/screenshot.png)
 
